@@ -1,6 +1,6 @@
 // VARIABLES
 
-$mobile-device: 42em;
+$mobile-device: 37em;
 
 $font-family: 'Poppins', sans-serif;
 
@@ -113,10 +113,12 @@ section.content-wrap {
 }
 
 .hero {
+  align-items: center;
+  text-align: left;
 
   &__title {
     font-size: 2em;
-    margin: 25px 0 20px 0 ;
+    margin: 25px 0 20px 0;
   }
 
   &__body {
@@ -188,7 +190,7 @@ form {
   }
 }
 @media (min-width: $mobile-device) {
-  
+    
   section.content-wrap {
     flex-wrap: nowrap;
     align-items: center;
